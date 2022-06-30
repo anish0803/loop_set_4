@@ -10,6 +10,19 @@
 // 101
 // 0101
 // 10101
-// 0101010
+// 010101
 
 
+let num = 6;
+for(i=1;i<=num;i++){
+    let star='';
+    for(j=1;j<=i;j++){
+      if((i+j) % 2 == 0){
+        star += 1;
+      }else{
+        star += `${0}`;
+      }
+    
+}
+console.log(star);
+}
